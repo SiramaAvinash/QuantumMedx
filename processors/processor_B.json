@@ -1,0 +1,45 @@
+{
+  "name": "processor_B",
+  "description": "7-qubit heavy-hex-inspired graph (Falcon-7 style). PLACEHOLDER matching the Phase-1 brief; overwrite with the official Challenge Kit file if it differs. Same gate set and noise as A so only connectivity differs.",
+  "num_qubits": 7,
+  "coupling_map": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "basis_gates": [
+    "rz",
+    "sx",
+    "x",
+    "cx"
+  ],
+  "noise": {
+    "type": "synthetic",
+    "p_1q": 0.0005,
+    "p_2q": 0.005,
+    "readout_p01": 0.01,
+    "readout_p10": 0.02
+  },
+  "official_definition": false
+}

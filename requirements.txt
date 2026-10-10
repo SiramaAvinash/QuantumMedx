@@ -1,0 +1,13 @@
+qiskit>=2.0
+qiskit-aer>=0.15
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+networkx>=3.2
+pylatexenc>=2.10
+jupyter
+nbformat
+nbconvert
+ipykernel

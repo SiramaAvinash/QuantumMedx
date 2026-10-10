@@ -1,0 +1,7 @@
+entanglement,qubits,edges,max_degree,mean_degree,diameter,avg_shortest_path,density,processor,depth,depth_ref_all_to_all,two_qubit_gates,two_qubit_gates_ref,extra_2q_from_routing,swap_count,total_ops,physical_qubits_used,ancillas,processor_qubits,pairs,non_adjacent_pairs,mean_distance_trivial_layout
+full,5,10,4,4.0,1,1.0,1.0,control_all_to_all,49,49,38,38,0,0,104,5,0,5,10,0,1.0
+linear,5,10,4,4.0,1,1.0,1.0,control_all_to_all,31,31,14,14,0,0,68,5,0,5,4,0,1.0
+full,5,4,2,1.6,4,2.0,0.4,processor_A,81,49,66,38,28,12,132,5,0,5,10,6,2.0
+linear,5,4,2,1.6,4,2.0,0.4,processor_A,31,31,14,14,0,0,68,5,0,5,4,0,1.0
+full,7,6,3,1.714,4,2.286,0.286,processor_B,84,49,61,38,23,9,127,5,0,7,10,7,2.2
+linear,7,6,3,1.714,4,2.286,0.286,processor_B,31,31,14,14,0,0,68,5,0,7,4,2,1.5

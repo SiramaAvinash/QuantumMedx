@@ -1,0 +1,11 @@
+entanglement,backend,accuracy_mean,accuracy_std,f1_mean,f1_std,auc_mean,auc_std,kernel_mae_test_mean,kernel_mae_test_std,kernel_mae_train_offdiag_mean,kernel_mae_train_offdiag_std,alignment_train_mean,alignment_train_std,offdiag_std_mean,offdiag_std_std,runtime_s_mean,runtime_s_std,depth,two_qubit_gates,swap_count,extra_2q_from_routing,physical_qubits_used,n_seeds
+full,classical_linear,1.0,,1.0,,1.0,,,,,,,,,,,,,,,,,1
+full,classical_rbf,1.0,,1.0,,1.0,,,,,,,,,,,,,,,,,1
+full,control_all_to_all,0.9,,0.9231,,1.0,,0.1413,,0.1381,,0.397,,0.106,,4.1226,,49.0,38.0,0.0,0.0,5.0,1
+full,ideal_kernel,1.0,,1.0,,1.0,,0.0,,0.0,,0.4214,,0.1262,,,,,,,,,1
+full,processor_A,0.9,,0.9231,,1.0,,0.2057,,0.2007,,0.3764,,0.0945,,5.6657,,81.0,66.0,12.0,28.0,5.0,1
+full,processor_B,0.9,,0.9231,,1.0,,0.1948,,0.19,,0.3785,,0.0962,,5.4671,,84.0,61.0,9.0,23.0,5.0,1
+linear,control_all_to_all,0.6,,0.7143,,0.7083,,0.0892,,0.0879,,0.2431,,0.0701,,2.5273,,31.0,14.0,0.0,0.0,5.0,1
+linear,ideal_kernel,0.7,,0.7692,,0.9167,,0.0,,0.0,,0.1911,,0.0764,,,,,,,,,1
+linear,processor_A,0.6,,0.7143,,0.7083,,0.0892,,0.0879,,0.2431,,0.0701,,2.7111,,31.0,14.0,0.0,0.0,5.0,1
+linear,processor_B,0.6,,0.7143,,0.7083,,0.0892,,0.0879,,0.2431,,0.07,,2.8416,,31.0,14.0,0.0,0.0,5.0,1
